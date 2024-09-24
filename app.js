@@ -29,10 +29,10 @@ app.use(cors());
 
 
 // MongoDB Connection
-mongoose
-  .connect("mongodb://localhost/bailCheckerDB", {})
-  .then(() => console.log("MongoDB connected"))
-  .catch((err) => console.log(err));
+// mongoose
+//   .connect("mongodb://localhost/bailCheckerDB", {})
+//   .then(() => console.log("MongoDB connected"))
+//   .catch((err) => console.log(err));
 
 
 //new route:::eligibility checker
